@@ -1,0 +1,33 @@
+{
+  "name": "pow-bot-deterrent",
+  "version": "0.0.1",
+  "description": "A proof of work based bot deterrent. lightweight, selfhosted, and copyleft licensed",
+  "main": "static/bot-deterrent.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://git.sequentialread.com/forest/pow-bot-deterrent.git"
+  },
+  "author": "forest johnson <forest.n.johnson@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://git.sequentialread.com/forest/pow-bot-deterrent/issues"
+  },
+  "scripts": {
+    "wasm-build": "cd wasm_build && ./build_wasm.sh",
+    "wasm_build": "cd wasm_build && ./build_wasm.sh",
+    "wasmbuild": "cd wasm_build && ./build_wasm.sh"
+  },
+  "homepage": "https://git.sequentialread.com/forest/pow-bot-deterrent",
+  "keywords": [
+    "bot-deterrent",
+    "proof of work",
+    "scrypt",
+    "webworker"
+  ],
+  "files": [
+    "static"
+  ],
+  "directories": {
+    "static": "static"
+  }
+}
