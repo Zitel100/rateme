@@ -1,6 +1,8 @@
 [build]
 builder = "NIXPACKS"
+buildCommand = "go build -o pow-bot-deterrent main.go"
 
 [deploy]
-startCommand = "go run main.go"
+startCommand = "./pow-bot-deterrent"
 restartPolicyType = "ON_FAILURE"
+
